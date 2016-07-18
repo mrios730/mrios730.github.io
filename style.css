@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Candal);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+h2{
+  color:blue;
+}
+
+p.candal{
+  font-family: 'Candal', sans-serif;
+}
+
+p.playfair{
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+}
+
+body {
+  background-image: url("File_000.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
