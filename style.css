@@ -1,8 +1,44 @@
 @import url(https://fonts.googleapis.com/css?family=Candal);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 
-h2{
-  color:blue;
+:root {
+  --lavender: #b8a9d9;
+  --lavender-dark: #6f5a9e;
+  --lavender-light: #e6dff5;
+  --beige: #f5efe3;
+  --beige-dark: #e3d5bc;
+  --text: #4a4458;
+}
+
+body {
+  background-color: var(--beige);
+  color: var(--text);
+}
+
+h1 {
+  color: var(--lavender-dark);
+  border-bottom: 3px solid var(--lavender);
+  padding-bottom: 8px;
+}
+
+h2 {
+  color: var(--lavender-dark);
+}
+
+a {
+  color: var(--lavender-dark);
+}
+
+a:hover {
+  color: var(--text);
+  background-color: var(--lavender-light);
+}
+
+ul {
+  background-color: var(--lavender-light);
+  border-left: 4px solid var(--lavender);
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 p.candal{
@@ -12,10 +48,4 @@ p.candal{
 p.playfair{
   font-family: 'Playfair Display', serif;
   font-size: 15px;
-}
-
-body {
-  background-image: url("File_000.jpeg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
 }
