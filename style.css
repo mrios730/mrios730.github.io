@@ -13,12 +13,20 @@
 body {
   background-color: var(--beige);
   color: var(--text);
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px 16px;
 }
 
 h1 {
   color: var(--lavender-dark);
   border-bottom: 3px solid var(--lavender);
   padding-bottom: 8px;
+}
+
+p.italic{
+  font-style: italic;
 }
 
 h2 {
@@ -35,10 +43,16 @@ a:hover {
 }
 
 ul {
+  list-style: none;
+  display: inline-block;
   background-color: var(--lavender-light);
-  border-left: 4px solid var(--lavender);
-  padding-top: 8px;
-  padding-bottom: 8px;
+  border: 2px solid var(--lavender);
+  border-radius: 8px;
+  padding: 8px 32px;
+}
+
+li p {
+  margin: 4px 0;
 }
 
 p.candal{
